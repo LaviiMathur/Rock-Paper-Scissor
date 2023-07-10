@@ -47,15 +47,15 @@ button:hover {
 }
 .Rock {
   background: transparent;
-  background-image: url(/images/image1.png);
+  background-image: url("images/image1.png");
   background-size: 150px 150px;
 }
 .Paper {
-  background-image: url(/images/image2.png);
+  background-image: url("images/image2.png");
   background-size: 150px 150px;
 }
 .Scissor {
-  background-image: url(/images/image3.png);
+  background-image: url("images/image3.png");
   background-size: 150px 150px;
 }
 .computer {

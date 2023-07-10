@@ -12,7 +12,7 @@ OptionBtn.forEach((button, index) => {
     });
     let time = setTimeout(() => {
       document.querySelector(".computer").classList.add("hide");
-    }, 5000);
+    }, 7000);
     let randomNum = Math.floor(Math.random() * 3);
 
     let cpuImage = [
@@ -58,6 +58,6 @@ OptionBtn.forEach((button, index) => {
     setTimeout(() => {
       result.textContent = "Choose your move..!";
       result.style.color = "#176B87";
-    }, 5000);
+    }, 7000);
   });
 });
